@@ -1,10 +1,11 @@
-function App() {
+import ParamEditor from './components/ParamEditor'
+import './App.css'
 
+function App() {
   return (
     <>
-        <h1>Params Editor App</h1>
+      <ParamEditor />
     </>
   )
 }
-
 export default App
